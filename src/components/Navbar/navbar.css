@@ -1,0 +1,27 @@
+/* src/components/Navbar.css */
+
+nav {
+	background-color: #ffcccb; /* Light pink */
+	padding: 1rem;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav ul li {
+	font-size: 1.2rem;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #333;
+	transition: color 0.3s;
+}
+
+nav ul li a:hover {
+	color: #ff69b4; /* Hot pink */
+}
