@@ -1,14 +1,23 @@
+:root {
+	--main-color: #00c9a5;
+	--nav-color: #00afa5;
+	--bg-color: #e8f3f1;
+	--black: #2f4858;
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	text-transform: capitalize;
 	font-family: "Poppins", sans-serif;
 	scroll-behavior: smooth;
-	color-scheme: dark;
+	/* color-scheme: dark; */
 }
 
-h1,
-h2 {
-	color: #ff69b4; /* Hot pink */
-	text-align: center;
+body {
+	background-color: var(--bg-color);
 }

@@ -1,5 +1,6 @@
-/* src/components/Navbar.css */
-
+.header {
+	background-color: var(--nav-color);
+}
 nav {
 	background-color: #ffcccb; /* Light pink */
 	padding: 1rem;
